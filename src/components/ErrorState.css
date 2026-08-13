@@ -1,0 +1,39 @@
+.error-card {
+  max-width: 480px;
+  margin: 40px auto;
+  padding: 40px 32px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.error-icon-wrapper {
+  width: 56px;
+  height: 56px;
+  background-color: var(--status-alert-bg);
+  border: 1px solid var(--status-alert-border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--status-alert-text);
+  margin-bottom: 4px;
+}
+
+.error-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.error-message {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.error-retry-btn {
+  margin-top: 8px;
+}

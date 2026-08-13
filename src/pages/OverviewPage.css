@@ -1,0 +1,59 @@
+.overview-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.greeting-banner {
+  padding: 32px;
+  background-color: var(--bg-card);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.greeting-text-col {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.greeting-time-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-primary);
+  letter-spacing: 0.05em;
+}
+
+.greeting-heading {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.greeting-sub {
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+}
+
+.launch-analysis-btn {
+  white-space: nowrap;
+}
+
+.metrics-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .greeting-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .metrics-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
