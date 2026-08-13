@@ -1,5 +1,13 @@
 # Parkinson'sDetection — Motor Characteristic Analysis & Research Platform
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react&logoColor=black)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-6.0.3-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7.2-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Model](https://img.shields.io/badge/Architecture-EfficientNet--B0-orange)](https://pytorch.org/vision/stable/models/efficientnet.html)
+[![Dataset](https://img.shields.io/badge/Dataset-NewHandPD-informational)](#historical-technology-constraint-compliance)
+[![Tech Cutoff](https://img.shields.io/badge/Tech_Cutoff-March_31%2C_2025-blueviolet)](#historical-technology-constraint-compliance)
+
 Parkinson'sDetection is a high-end AI research web application strongly inspired by modern SaaS visual design principles (minimal aesthetic, warm off-white tones, space-grotesk headings, soft rounded cards, subtle borders, and smooth micro-interactions). It analyzes spiral drawings using computer vision and explainable AI (Grad-CAM) to evaluate motor tremor characteristics.
 
 ---
@@ -40,7 +48,7 @@ This project strictly adheres to the **March 31, 2025 technology cutoff constrai
 3. **Main Analysis Screen (`/dashboard/analyze`)**:
    - Drag & drop spiral image uploader with format validation (PNG, JPG, JPEG).
    - Animated multi-step AI processing state (`Preparing image` -> `Running model` -> `Generating Grad-CAM`).
-   - Results dashboard featuring **Model Confidence Score**, probability breakdown, and dual-panel **Grad-CAM Visual Attention Heatmap Viewer** with opacity controls.
+   - Results dashboard featuring **Detection Verdict Banner**, **Model Confidence Score**, probability breakdown, and dual-panel **Grad-CAM Visual Attention Heatmap Viewer** with opacity controls.
 
 4. **Analysis History Log (`/dashboard/history`)**:
    - Stored prediction records in local storage.
@@ -65,8 +73,8 @@ This project strictly adheres to the **March 31, 2025 technology cutoff constrai
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/parkinson-ai.git
-cd parkinson-ai
+git clone https://github.com/namruthabhasi/parkinsondetection.git
+cd parkinsondetection
 
 # Install dependencies (pinned to pre-2025 compatible versions)
 npm install
@@ -88,4 +96,7 @@ npm run preview
 ---
 
 ## License & Disclaimer
-This software is provided for research exploration and educational demonstration only. It is not certified for clinical diagnosis.
+
+This project is licensed under the [MIT License](LICENSE).
+
+*Disclaimer*: This software is provided for research exploration and educational demonstration only. It is not certified for clinical diagnosis.
